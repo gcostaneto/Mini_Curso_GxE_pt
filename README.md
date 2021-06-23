@@ -20,4 +20,3 @@ Repositório dedicado ao curso GxE ministrado para o grupo EuGeM da Universidade
 - Adaptabilidade e Estabilidade
 - Predição de Fenótipos sob múltiplas condições ambientais
 - Covariâncias Genomicas e Enviromicas
-![image](https://user-images.githubusercontent.com/25282742/123173900-b2159680-d455-11eb-8d6d-f12edfddf19d.png)
