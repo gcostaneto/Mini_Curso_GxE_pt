@@ -21,7 +21,7 @@ Repositório dedicado ao curso GxE ministrado para o grupo EuGeM da Universidade
 - Predição de Fenótipos sob múltiplas condições ambientais
 - Covariâncias Genomicas e Enviromicas
 
-Apresentação disponível [aqui]()
+A apresentação completa está disponível [aqui]()
 
 # Parte Prática (no R)
 
