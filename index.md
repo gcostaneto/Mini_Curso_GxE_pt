@@ -76,3 +76,4 @@ A apresentação completa está disponível [aqui]()
 
 **Modelagem Norma de Reação Genômica (kernel methods)**
 
+ 
