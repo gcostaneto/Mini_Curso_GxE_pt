@@ -38,7 +38,7 @@ A apresentação completa está disponível [aqui]()
 * [Modelagem Fenótipo-Ambiente (Phenotype-Envirotype, dados ambientais)](#P2)
 * [Modelagem Genótipo-Fenótipo (Genotype-to-Phenotype)](#P3)
 * [Modelagem Norma de Reação Genômica (linear regressions)](#P4)
-* [Modelagem Norma de Reação Genômica (kernel methods)(#P5)
+* [Modelagem Norma de Reação Genômica (kernel methods)](#P5)
 
 <div id="P1" />
 
