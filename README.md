@@ -27,9 +27,9 @@ A apresentação completa está disponível [aqui]()
 
 **Principais pacotes utilizados**
 
-- **EnvRtype**: Envirotyping Tools in R [Download]() [Publicação]()
-- **BGLR**: Bayesian Generalized Linear Regression [Download]() [Publicação]()
-- **FW**:
+- **EnvRtype**: Envirotyping Tools in R ([Download](), [Publicação]())
+- **BGLR**: Bayesian Generalized Linear Regression ([Download]() , [Publicação]())
+- **FW**: ([Download]() , [Publicação]())
 - **gge** & **GGEBiplots**
 
 # Bibliografia Recomendada
