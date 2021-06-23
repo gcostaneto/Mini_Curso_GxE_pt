@@ -9,6 +9,8 @@ Repositório dedicado ao curso GxE ministrado para o grupo EuGeM da Universidade
 
 <img align="center" src="/fig/Curso_capa.png" width="100%" height="100%">
 
+# Objetivos
+
 
 # Parte Teórica
 - Questões-Alvo (Teoricas)
@@ -27,10 +29,12 @@ A apresentação completa está disponível [aqui]()
 
 **Principais pacotes utilizados**
 
-- **EnvRtype**: Envirotyping Tools in R ([Download](), [Publicação]())
-- **BGLR**: Bayesian Generalized Linear Regression ([Download]() , [Publicação]())
-- **FW**: ([Download]() , [Publicação]())
-- **gge** & **GGEBiplots**
+- **EnvRtype**: Envirotyping Tools in R ([Download](https://github.com/allogamous/EnvRtype), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/jkab040.pdf))
+- **BGLR**: Bayesian Generalized Linear Regression ([Download](https://github.com/gdlc/BGLR-R) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/483.full.pdf))
+- **BGGE**: Bayesian Genotype plus Genotype by Environment Interaction ([Download](https://github.com/italo-granato/BGGE) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/Granato et al. - 2018 - BGGE A New Package for Genomic-Enabled Prediction Incorporating Genotype x Environment Interaction Models.pdf))
+- **FW**:Bayesian method and ordinary least square method for Finlay-Wilkinson Regression. ([Download](https://github.com/lian0090/FW) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/Lian, de los Campos - 2016 - FW An R Package for Finlay–Wilkinson Regression that Incorporates GenomicPedigree Information and Covarianc.pdf))
+- **gge** & **GGEBiplots** ([Download gge]() & [Download GGEBiplots](), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/483.full.pdf))
+- **metan** A R package for multi-environment analysis ([Download](), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/2041-210X.13384.pdf),[vinheta metan](https://cran.r-project.org/web/packages/metan/vignettes/metan_start.html))
 
 # Bibliografia Recomendada
 
@@ -45,7 +49,6 @@ A apresentação completa está disponível [aqui]()
 <div id="P1" />
 
 **Modelagem Fenótipo sob múltiplos ambientes (caracterizar GxE histórica)**
-
 
 
 <div id="P2" />
