@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<!-- saved from url=(0127)http://augustogarcia.me/Biometria-de-Marcadores/2019/04/02/Aula-3-(Mapas-Gen%C3%A9ticos-I-Segrega%C3%A7%C3%A3o-Mendeliana).html -->
+<html class="no-js gr__augustogarcia_me"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Aula 3 - Mapas Genéticos I (Segregação Mendeliana) | LGN 5830 - Biometria de Marcadores Genéticos</title>
+	<meta name="description" content="Foram apresentadas ideias sobre testes de hipóteses, p-valores,problemas de múltiplos testes (Bonferroni, FDR, etc). Em seguida, umconjunto de dados de uma p...">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./Aula 3 - Mapas Genéticos I (Segregação Mendeliana) _ LGN 5830 - Biometria de Marcadores Genéticos_files/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="http://augustogarcia.me/Biometria-de-Marcadores/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://augusto-garcia.github.io/Biometria-de-Marcadores/2019/04/02/Aula-3-(Mapas-Gen%C3%A9ticos-I-Segrega%C3%A7%C3%A3o-Mendeliana).html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="LGN 5830 - Biometria de Marcadores Genéticos" href="http://augusto-garcia.github.io/Biometria-de-Marcadores/feed.xml">
+
+	<!-- Font Awesome -->
+	<link href="./Aula 3 - Mapas Genéticos I (Segregação Mendeliana) _ LGN 5830 - Biometria de Marcadores Genéticos_files/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="./Aula 3 - Mapas Genéticos I (Segregação Mendeliana) _ LGN 5830 - Biometria de Marcadores Genéticos_files/css" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="./Aula 3 - Mapas Genéticos I (Segregação Mendeliana) _ LGN 5830 - Biometria de Marcadores Genéticos_files/katex.min.css">
+	<script async="" src="./Aula 3 - Mapas Genéticos I (Segregação Mendeliana) _ LGN 5830 - Biometria de Marcadores Genéticos_files/analytics.js.download"></script><script src="./Aula 3 - Mapas Genéticos I (Segregação Mendeliana) _ LGN 5830 - Biometria de Marcadores Genéticos_files/katex.min.js.download"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-60429332-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
+</head>
+
+  <body data-gr-c-s-loaded="true">
+    <header class="site-header">
+	<div class="branding">
+		
+		<h1 class="site-title">
+			<a href="http://augustogarcia.me/Biometria-de-Marcadores/">LGN 5830 - Biometria de Marcadores Genéticos</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="http://augustogarcia.me/Biometria-de-Marcadores/descri%C3%A7%C3%A3o/">
+					Descrição
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+<li>
+	<a href="http://augusto-garcia.github.io/Biometria-de-Marcadores/feed.xml" title="Siga o RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="mailto:augusto.garcia@usp.br" title="email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/augusto-garcia" title="Siga no GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="https://plus.google.com/u/0/communities/114505085464124213449" title="Siga no Google+">
+		<i class="fa fa-fw fa-google-plus"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/aafgarci" title="Siga no Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article>
+  <header style="background-image: url(&#39;/Biometria-de-Marcadores/&#39;)">
+    <h1 class="title">Aula 3 - Mapas Genéticos I (Segregação Mendeliana)</h1>
+    <p class="meta">
+      <!-- Whitespace added for readability -->
+      
+      2
+      de Abril de
+      
+      2019
+    
+    </p>
+  </header>
+  <section class="post-content"><p>Foram apresentadas ideias sobre testes de hipóteses, p-valores,
+problemas de múltiplos testes (Bonferroni, FDR, etc). Em seguida, um
+conjunto de dados de uma população de retrocruzamento foi analisado e
+discutido.</p>
+
+<p><strong><em>Objetivo: Habilitar os alunos a identificar problemas inerentes à
+  realização de múltiplos testes. Discutir problemas com falsos
+  positivos. Aprender a testar segregação mendeliana para conjuntos de
+  dados de mapeamento genético.</em></strong></p>
+
+<p><em>Arquivos para download:</em> <a href="http://augustogarcia.me/Biometria-de-Marcadores/pdfs/aula3.pdf">Versão completa</a> e <a href="http://augustogarcia.me/Biometria-de-Marcadores/pdfs/aula3_imprimir.pdf">para impressão</a>.</p>
+
+<h2 id="referências">Referências</h2>
+
+<p>[1] B.H. Liu, Statistical Genomics - Linkage, Mapping and QTL Analysis, 1 ed., New York, CRC Press, 1998.</p>
+
+<ul>
+  <li>Livro que apresenta vários aspectos do mapeamento genético, dando ênfase nos procedimentos estatísticos. Há discussão sobre testes da segregação mendeliana.</li>
+</ul>
+
+<p>[2] S. Draghici, Data Analysis Tools for DNA Microarrays, Boca Raton, Florida, Chapman and Hall/CRC, 2003.</p>
+
+<ul>
+  <li>Livro escrito em linguagem simples que apresenta os principais métodos estatísticos usados para análise de dados de microarranjos. No capítulo 9 apresenta os problemas dos múltiplos testes, incluindo <em>Bonferroni</em> e <em>FDR</em>. Algum cuidado é necessário, já que não há um grande rigor com a terminologia usada em várias partes.</li>
+</ul>
+
+<p>[3] N.C. Oraguzie, E.H. Rikkerink, S.E. Gardiner, Association Mapping in Plants, Springer, 2007.</p>
+
+<ul>
+  <li>No capítulo 7, os autores apresentam uma excelente discussão sobre o problema dos múltiplos testes e o conceito de <em>p-valor</em>.</li>
+</ul>
+
+<p>﻿[4] Y. Benjamini, Y. Hochberg, On the Adaptative Control of the False Discovery Rate in Multiple Testing with Independent Statistics, Journal Of Educational And Behavioral Statistics. 25 (2000) 60-83.</p>
+
+<p>[5] Y. Benjamini, Y. Hochberg, Controling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing, Journal Of The Royal Statistical Society, Series B. 57 (1995) 289-300.</p>
+
+<p>[6] Y. Benjamini, D. Yekutieli, The Control of the False Discovery Rate in Multiple Testing Under Dependency, The Annals Of Statistics. 29 (2001) 1165-1188.</p>
+
+<ul>
+  <li>As referências [4-6] apresentam o conceito de <em>FDR</em> em sua forma original, que motivou toda a discussão sobre controle de falsos positivos.</li>
+</ul>
+
+<p>[7] L. Chen, J.D. Storey, Relaxed significance criteria for linkage analysis., Genetics. 173 (2006) 2371-2381.</p>
+
+<ul>
+  <li>Artigo de fácil leitura que discute de maneira muito interessante as razões pelas quais o <em>FDR</em> não deve ser usado para mapeamento de QTLs em situações comuns (ex: poucos caracteres avaliados)</li>
+</ul>
+
+<p>[8] S. Xu, Quantitative trait locus mapping can benefit from segregation distortion., Genetics. 180 (2008) 2201-2208.</p>
+
+<ul>
+  <li>O título que já diz tudo.</li>
+</ul>
+
+<p>[9] K. Hao, E.E. Schadt, J.D. Storey, Calibrating the performance of SNP arrays for whole-genome association studies., PLoS Genetics. 4 (2008) e1000109.</p>
+
+<p>[10] L. Käll, J.D. Storey, M.J. MacCoss, W.S. Noble, Posterior error probabilities and false discovery rates: two sides of the same coin., Journal Of Proteome Research. 7 (2008) 40-44.</p>
+
+<ul>
+  <li>Artigo de leitura bastante simples que apresenta claramente como
+interpretar o significado de FDR, q-valor, etc.</li>
+</ul>
+
+<p>[11] J.T. Leek, J.D. Storey, A general framework for multiple testing dependence, Proc. Natl. Acad. Sci USA. 105 (2008) 18718-23.</p>
+
+<ul>
+  <li>Artigo muito interessante que apresenta alternativas para controle
+da dependência entre múltiplos testes de uma forma bastante elegante e
+inovadora.</li>
+</ul>
+
+<p>[12] J.D. Storey, The optimal discovery procedure: a new approach to simultaneous significance testing, J. R. Statist. Soc. B. 69 (2007) 347-368.</p>
+
+<p>[13] J.D. Storey, A direct approach to false discovery rates, J. R. Statist. Soc. B. 64 (2002) 479-498.</p>
+
+<p>[14] J.D. Storey, The positive false discovery rate: a bayesian interpretation and the q-value, The Annals Of Statistics. 31 (2003) 2013-2035.</p>
+
+<p>[15] J.D. Storey, J.Y. Dai, J.T. Leek, The optimal discovery procedure for large-scale significance testing, with applications to comparative microarray experiments., Biostatistics (Oxford, England). 8 (2007) 414-432.</p>
+
+<p>[16] J.D. Storey, J.E. Taylor, D. Siegmund, Strong control, conservative point estimation and simultaneous conservative consistency of false discovery rates: a unified approach, J. R. Statist. Soc. B. 66 (2004) 187-205.</p>
+
+<p>[17] Leek, J. T., &amp; Storey, John D. (2011). The Joint Null Criterion for Multiple Hypothesis Tests. Statistical Applications in Genetics and Molecular Biology, 10(1).</p>
+
+<ul>
+  <li>Os artigos [9-17] são alguns dos mais importantes produzidos pelo grupo do John Storey e apresentam em detalhes vários aspectos da moderna discussão sobre múltiplos testes em experimentos genômicos.</li>
+</ul>
+
+<p>[18] J.D. Storey, R. Tibshirani, Statistical significance for genomewide studies. Proc. Natl. Acad. Sci USA. 100 (2003) 9440-9445.</p>
+
+<ul>
+  <li>Na minha opinião, artigo de leitura indispensável para entender os
+conceitos de FDR, etc. Fornece novas e influentes ideias sobre o
+assunto.</li>
+</ul>
+
+<p>[19] Storey, J D. (2011). False Discovery Rates. In M. Lovic (Ed.), International Encyclopedia of Statistical Science (Vol. 1, pp. 504-508). Springer-Verlag.</p>
+
+<ul>
+  <li>Excelente texto para um conhecimento geral sobre o assunto.</li>
+</ul>
+
+<p>[20] Storey, J D (2011) Interview with Nature Biotechnology: New statistical methods for high-throughput sequencing. Nature Biotechnology 28: 331-333.</p>
+
+<h2 id="exercícios">Exercícios</h2>
+
+<h3 id="prazo-19042019-até-a-meia-noite">Prazo: 19/04/2019, até a meia-noite.</h3>
+
+<p>Os exercícios devem ser enviados por email (exceto quando indicado de
+forma diferente), conforme apresentado na aula (veja
+<a href="http://augusto-garcia.github.io/Biometria-de-Marcadores-Introduction/#23">aqui</a>).</p>
+
+<p>Todos os exercícios devem ser digitados usando o RStudio (RMarkdown).
+No caso dos exercícios envolvendo cálculos feitos no R, <strong>não use
+nenhum pacote</strong>, apenas o R “básico” (sem carregar pacotes). Caso
+tenha problemas, use o Fórum (ou grupo no WhatsApp) para tirar suas dúvidas.</p>
+
+<p>1) Leia os itens [10] e [19] da bibliografia. Explique o que entendeu
+sobre os artigos no Fórum (mínimo: 15 linhas). Caso deseje adquirir um
+conhecimento mais profundo sobre o assunto, leia também as publicações [3] e
+[18] (eventualmente, também comentando no Fórum - tarefa opcional para
+este dois últimos artigos).</p>
+
+<hr>
+
+<p>2) Em seu clássico experimento, Mendel (1866) cruzou linhagens de ervilhas diferentes quanto à forma (e outras características), tendo obtido os resultado apresentados na tabela abaixo (população <span class="math-inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>F</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">F_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height: 0.68333em;"></span><span class="strut bottom" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right: 0.13889em;">F</span><span class="vlist"><span class="" style="top: 0.15em; margin-right: 0.05em; margin-left: -0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span class="" style="font-size: 0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord">2</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span class="" style="font-size: 0em;">​</span></span>​</span></span></span></span></span></span></span><script type="math/tex">F_2</script>). Considere cada uma das plantas separadamente e também o total de sementes para fazer os exercícios.</p>
+
+<ul>
+  <li>Obter estimativas de máxima verossimilhança do parâmetro <span class="math-inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>θ</mi></mrow><annotation encoding="application/x-tex">\theta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height: 0.69444em;"></span><span class="strut bottom" style="height: 0.69444em; vertical-align: 0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right: 0.02778em;">θ</span></span></span></span></span><script type="math/tex">\theta</script> (probabilidade de uma dada semente ser lisa).</li>
+  <li>Testar se esses valores diferem do esperado sob <span class="math-inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">H_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height: 0.68333em;"></span><span class="strut bottom" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right: 0.08125em;">H</span><span class="vlist"><span class="" style="top: 0.15em; margin-right: 0.05em; margin-left: -0.08125em;"><span class="fontsize-ensurer reset-size5 size5"><span class="" style="font-size: 0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord">0</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span class="" style="font-size: 0em;">​</span></span>​</span></span></span></span></span></span></span><script type="math/tex">H_0</script>. Use o R
+para obter os p-valores. (Você já sabe fazer buscas sobre um
+função que faça isso, certo? A distribuição é de qui-quadrado, obviamente.)</li>
+  <li>Caso o gene que controla esse caráter não mostrasse dominância, qual distribuição de probabilidades deveria ser usada para analisar esses dados? Justifique.</li>
+  <li>Mendel realizou esse mesmo tipo de experimento para várias outras
+características (7 ao todo) e plantas. São esperados falsos
+positivos nos seus resultados? Justifique.</li>
+  <li>Procure artigos que discutam sobre os resultados de Mendel (too
+good to be true). Apresente pelo menos um deles no Fórum. Caso não
+encontre nada diferente do que os colegas apresentaram, comente
+qual dos artigos julgou ser o mais interessantes,
+justificando a escolha.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Planta</th>
+      <th style="text-align: right">Sementes lisas</th>
+      <th style="text-align: right">Sementes rugosas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">45</td>
+      <td style="text-align: right">12</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">27</td>
+      <td style="text-align: right">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">24</td>
+      <td style="text-align: right">7</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">19</td>
+      <td style="text-align: right">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">32</td>
+      <td style="text-align: right">11</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">26</td>
+      <td style="text-align: right">6</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">7</td>
+      <td style="text-align: right">88</td>
+      <td style="text-align: right">24</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">8</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">28</td>
+      <td style="text-align: right">6</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">25</td>
+      <td style="text-align: right">7</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<p>3) Considere o arquivo de dados abaixo referente a uma população F2 que foi genotipada com um marcador codominante. Os dados fenotípicos ainda não serão analisados.</p>
+
+<ul>
+  <li>Carregue os dados no R usando os comandos</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+library(RCurl)
+
+x &lt;-
+getURL("https://raw.githubusercontent.com/augusto-garcia/Biometria-de-Marcadores/gh-pages/datasets/maize.csv",  .opts = list(ssl.verifypeer = FALSE))
+
+data1 &lt;- read.csv(text = x)
+
+</code></pre></div></div>
+
+<ul>
+  <li>Verifique se todos os locos possuem segregação mendeliana. Utilize
+alguma correção para múltiplos testes, caso isso seja necessário.
+Use o R para fazer as análises, mas sem carregar pacotes específicos.</li>
+  <li>Interprete os resultados do ponto de vista genético.</li>
+</ul>
+
+<hr>
+
+<p>4) Em função do seu perfil profissional, escolha um dos tópicos abaixo para fazer uma postagem no Fórum. Uma postagem de 8-10 linhas é suficiente, de preferência com links para referências importantes (se quiser escrever mais, fique à vontade). O desafio é tornar o assunto claro para os colegas da disciplina que não têm familiaridade com o assunto possam entendê-lo. É óbvio que várias postagens serão sobre o mesmo assunto, então procure ser didático e criativo, complementando o que tiver sido postado antes por outros colegas. Leia e faça comentários (quando for o caso) sobre as postagens de colegas com perfil diferente do seu, sempre no intuito de compartilhar conhecimentos e auxiliar quem não está familiarizado com o assunto.</p>
+
+<ul>
+  <li>Explique o que é um p-valor, listando referências da internet que
+ajudem a entender este conceito.</li>
+  <li>Apresente códigos (comentados) no R mostrando como fazer o teste
+ de chi-quadrado para segregação mendeliana para os dados usados em
+ aula (“mouse data”). Os dados podem ser obtidos no R usando</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+library(RCurl)
+
+getURL("https://raw.githubusercontent.com/augusto-garcia/Biometria-de-Marcadores/gh-pages/datasets/mouse.csv",  .opts = list(ssl.verifypeer = FALSE))
+
+data2 &lt;- read.csv(text = x)
+
+</code></pre></div></div>
+
+<hr>
+
+<p>5) Organize grupos de 4 pessoas e faça um vídeo no Youtube (mínimo: 20
+minutos) explicando algum dos tópicos abaixo (escolha de acordo com o
+interesse, curiosidade em aprender, etc), e coloque o link no Fórum.
+Novamente, se algum grupo falou sobre o mesmo tema, não há qualquer
+problema. Dê sua contribuição, cobrindo pontos não abordados,
+diferentes exemplos, etc. Seja criativo! Vocês podem aparecer no vídeo
+ou apenas colocar telas explicativas, slides, etc. O importante é
+passar a mensagem. Assista e comente o vídeo dos outros grupos; faça
+perguntas, dê sugestões, etc. (Não seja tímido; aparecer no vídeo é
+uma chance de ser descoberto pela grande mídia. Lembrem-se que temos
+colega que apareceu no Domingão do Faustão!)</p>
+
+<ul>
+  <li>Explique como obter populações de RILs para espécies autógamas
+(ex: soja) e alógamas com linhagens já disponíveis (ex: milho).</li>
+  <li>Explique como obter e avaliar populações F2 no campo, para
+espécies autógamas e alógamas.</li>
+  <li>Explique o que são marcadores moleculares (tradicionais e SNPs),
+sem se preocupar tanto com os protocolos, mas sim com os
+fundamentos das técnicas.</li>
+  <li>Explique o que é genotipagem por sequenciamento (GBS).</li>
+  <li>Explique o que são testes de hipóteses (no contexto dos testes
+estatísticos).</li>
+  <li>Explique como usar linguagem markdown no R para produzir
+relatórios que incluam comentários e linhas de código no R.</li>
+</ul>
+
+</section>
+</article>
+
+<!-- Post navigation -->
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+
+    </div>
+    
+<script src="./Aula 3 - Mapas Genéticos I (Segregação Mendeliana) _ LGN 5830 - Biometria de Marcadores Genéticos_files/katex_init.js.download"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="http://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+  
+
+</body></html>
