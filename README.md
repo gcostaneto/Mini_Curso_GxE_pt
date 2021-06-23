@@ -40,6 +40,8 @@ A apresentação completa está disponível [aqui]()
 * [Modelagem Norma de Reação Genômica (linear regressions)](#P4)
 * [Modelagem Norma de Reação Genômica (kernel methods)](#P5)
 
+----------------------------------------------------------------------------------------------------
+
 <div id="P1" />
 
 **Modelagem Fenótipo sob múltiplos ambientes (caracterizar GxE histórica)**
