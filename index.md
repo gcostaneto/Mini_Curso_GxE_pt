@@ -7,7 +7,7 @@
 
 Repositório dedicado ao curso GxE ministrado para o grupo EuGeM da Universidade Federal de Goiás (UFG) em 26 de junho de 2021
 
-<img align="center" src="https://github.com/gcostaneto/Mini_Curso_GxE_pt/tree/main/fig" width="100%" height="100%">
+<img align="center" src="https://raw.githubusercontent.com/gcostaneto/Mini_Curso_GxE_pt/main/fig/Curso_capa.png" width="100%" height="100%">
 
 # Objetivos
 
