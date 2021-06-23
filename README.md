@@ -25,3 +25,6 @@ Apresentação disponível [aqui]()
 
 # Parte Prática (no R)
 
+
+# Bibliografia Recomendada
+
