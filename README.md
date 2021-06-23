@@ -25,6 +25,22 @@ A apresentação completa está disponível [aqui]()
 
 # Parte Prática (no R)
 
+**Principais pacotes utilizados**
+
+- **EnvRtype**: Envirotyping Tools in R [Download]() [Publicação]()
+- **BGLR**: Bayesian Generalized Linear Regression [Download]() [Publicação]()
+- **FW**:
+- **gge** & **GGEBiplots**
 
 # Bibliografia Recomendada
+
+**Modelagem Fenótipo**
+
+**Modelagem Fenótipo-Ambiente (Phenotype-Envirotype, dados ambientais)**
+
+**Modelagem Genótipo-Fenótipo (Genotype-to-Phenotype)**
+
+**Modelagem Norma de Reação Genômica (linear regressions)**
+
+**Modelagem Norma de Reação Genômica (kernel methods)**
 
