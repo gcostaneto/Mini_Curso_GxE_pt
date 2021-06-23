@@ -39,6 +39,7 @@ A apresentação completa está disponível [aqui]()
 # Bibliografia Recomendada
 
 * [Modelagem Fenótipo sob multiplos ambientes](#P1)
+* [Tipagem de ambientes em larga escala (large-scale envirotyping, in short, enviromics)](#P6)
 * [Modelagem Fenótipo-Ambiente (Phenotype-Envirotype, dados ambientais)](#P2)
 * [Modelagem Genótipo-Fenótipo (Genotype-to-Phenotype)](#P3)
 * [Modelagem Norma de Reação Genômica (linear regressions)](#P4)
@@ -56,6 +57,9 @@ A apresentação completa está disponível [aqui]()
 **Modelagem Fenótipo-Ambiente (Phenotype-Envirotype, dados ambientais)**
 
 
+<div id="P6" />
+
+**Tipagem de ambientes em larga escala (large-scale envirotyping, in short, enviromics)**
 
 <div id="P3" />
 
