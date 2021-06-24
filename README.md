@@ -25,8 +25,8 @@ genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o t
 
 # Objetivos
 
- 1. Fornecer conceitos teóricos básicos para compreender o fenômeno da interação GxE;
- 2. Disponibilizar códigos em programação open-source visando a democratização do uso de modelos envolvendo dados genômicos e ambientais
+ -1. Fornecer conceitos teóricos básicos para compreender o fenômeno da interação GxE;
+ -2. Disponibilizar códigos em programação open-source visando a democratização do uso de modelos envolvendo dados genômicos e ambientais
 
 # Parte Teórica
 - Questões-Alvo (Teoricas)
