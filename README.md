@@ -9,6 +9,20 @@ Repositório dedicado ao curso GxE ministrado para o grupo EuGeM da Universidade
 
 <img align="center" src="/fig/Curso_capa.png" width="100%" height="100%">
 
+# Introdução
+
+A interação GxE é um fenômeno universal entre os seres vivos. É decorrente
+da interação multifatorial e não aditiva entre genótipos (conjunto de genes)
+e o meio no qual se encontra (conjunto de fatores ambientais) (Lynch and Walsh,
+1998). Assim, pode ser interpretada biometricamente como a diferença entre
+os valores fenotípicos (conjunto de respostas observadas), ambientais e
+genotípicos. Por esse motivo, constitui um fenômeno estatístico e biológico
+de grande importância no processo de melhoramento genético de plantas,
+pois desde os primeiros estágios de seleção até a estimação do valor de cultivo e uso
+(VCU), para fins de recomendação de cultivares, a interação GxE dificulta a interpretação
+do fenótipo observado e subsequentes inferências sobre o valor
+genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o triangulo básico do melhoramento baseado em predição (genômica, fenômica, envirômica), novos modos de modelar e compreender a GxE também sugiram. Com isso, as plataformas de predição (sobretudo predição genômica) tem cada vez mais se adaptado para acomodar dados de tipagem ambiental em larga escala (enviromica) para fins de predição de diversos cenários multi-ambientais.
+
 # Objetivos
 
 
