@@ -51,7 +51,7 @@ A apresentação completa está disponível [aqui]()
 - **BGGE**: Bayesian Genotype plus Genotype by Environment Interaction ([Download](https://github.com/italo-granato/BGGE) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/BGGE.pdf))
 - **FW**:Bayesian method and ordinary least square method for Finlay-Wilkinson Regression. ([Download](https://github.com/lian0090/FW) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/FW.pdf))
 - **gge** & **GGEBiplots** ([Download gge]() & [Download GGEBiplots](), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/jkab040.pdf))
-- **metan** A R package for multi-environment analysis ([Download](), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/jkab040.pdf),[vinheta metan](https://cran.r-project.org/web/packages/metan/vignettes/metan_start.html))
+- **metan** A R package for multi-environment analysis ([Download](https://tiagoolivoto.github.io/metan/reference/metan-package.html), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/metan.pdf),[vinheta metan](https://cran.r-project.org/web/packages/metan/vignettes/metan_start.html))
 
 # Bibliografia Recomendada
 
