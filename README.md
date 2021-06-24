@@ -26,7 +26,7 @@ genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o t
 # Objetivos
 
  - 1. Fornecer conceitos teóricos básicos para compreender o fenômeno da interação GxE;
- - 2. Mostrar a diferença dos modelos exploratórios (passado) e preditivos (futuro) no que tange a compreensão e modelagem da interação GxE para fins de tomada de decisão em programas de melhoramento de plantas;
+ - 2. Mostrar a diferença dos modelos exploratórios empíricos e analíticos, no que tange a compreensão e predição da GxE em diversos estágios de programas de melhoramento de plantas;
  - 3. Disponibilizar códigos em programação open-source visando a democratização do uso de modelos envolvendo dados genômicos e ambientais
 
 # Parte Teórica
@@ -46,10 +46,10 @@ A apresentação completa está disponível [aqui]()
 
 **Principais pacotes utilizados**
 
-- **EnvRtype**: Envirotyping Tools in R ([Download](https://github.com/allogamous/EnvRtype), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/jkab040.pdf))
-- **BGLR**: Bayesian Generalized Linear Regression ([Download](https://github.com/gdlc/BGLR-R) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/483.full.pdf))
-- **BGGE**: Bayesian Genotype plus Genotype by Environment Interaction ([Download](https://github.com/italo-granato/BGGE) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/jkab040.pdf))
-- **FW**:Bayesian method and ordinary least square method for Finlay-Wilkinson Regression. ([Download](https://github.com/lian0090/FW) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/jkab040.pdf))
+- **EnvRtype**: Envirotyping Tools in R ([Download](https://github.com/allogamous/EnvRtype), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/EnvRtype.pdf))
+- **BGLR**: Bayesian Generalized Linear Regression ([Download](https://github.com/gdlc/BGLR-R) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/BGLR.pdf))
+- **BGGE**: Bayesian Genotype plus Genotype by Environment Interaction ([Download](https://github.com/italo-granato/BGGE) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/BGGE.pdf))
+- **FW**:Bayesian method and ordinary least square method for Finlay-Wilkinson Regression. ([Download](https://github.com/lian0090/FW) , [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/FW.pdf))
 - **gge** & **GGEBiplots** ([Download gge]() & [Download GGEBiplots](), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/jkab040.pdf))
 - **metan** A R package for multi-environment analysis ([Download](), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/jkab040.pdf),[vinheta metan](https://cran.r-project.org/web/packages/metan/vignettes/metan_start.html))
 
