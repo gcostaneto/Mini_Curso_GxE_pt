@@ -66,10 +66,9 @@ call.packages <- function(pkg){
 }
 
 # vetor de pacotes (no CRAN)
-pacotes_necessarios <- c('ggplot2','foreach','doParallel','gge','GGEBiplots',
-                         'superheat',"BGLR","plsdepot")
+pacotes_necessarios <- c('ggplot2','tidyverse','plyr','reshape2,'raster','foreach','doParallel','gge','GGEBiplots','superheat','BGLR','plsdepot')
 
-# instala automatico (e require)
+# instalação automático (e chamada via require)
 call.packages(pkg = pacotes_necessarios) 
 ```
 
