@@ -38,7 +38,7 @@ genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o t
 - Adaptabilidade e Estabilidade
 - Predição de Fenótipos sob múltiplas condições ambientais
 
-A apresentação completa está disponível [aqui]()
+A apresentação completa está disponível [aqui](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/Germano_Costa_Neto_Modeling%20GxE%20using%20phenotypic%2C%20genomic%20and%20enviromic.pdf)
 
 # Parte Prática (no R, 2h)
 
