@@ -55,7 +55,9 @@ Os códigos da aula prática podem ser encontrados [aqui, após as 22h do dia 26
 
 **Pacotes base**
 
-```call.packages <- function(pkg){
+```
+# funcao para instalar automatico #
+call.packages <- function(pkg){
   
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   
@@ -63,10 +65,12 @@ Os códigos da aula prática podem ser encontrados [aqui, após as 22h do dia 26
     sapply(pkg, require, character.only = TRUE)
 }
 
+# vetor de pacotes (no CRAN)
 pacotes_necessarios <- c('ggplot2','foreach','doParallel','gge','GGEBiplots',
                          'superheat',"BGLR")
 
-call.packages(pkg = pacotes_necessarios) # instala automatico
+# instala automatico (e require)
+call.packages(pkg = pacotes_necessarios) 
 ```
 
 **Principais pacotes utilizados**
