@@ -16,7 +16,7 @@ da interação multifatorial e não aditiva entre genótipos (conjunto de genes)
 e o meio no qual se encontra (conjunto de fatores ambientais) (Lynch and Walsh,
 1998). Assim, pode ser interpretada biometricamente como a diferença entre
 os valores fenotípicos (conjunto de respostas observadas), ambientais e
-genotípicos. Por esse motivo, constitui um fenômeno estatístico e biológico
+genotípicos. A interação GxE constitui um fenômeno estatístico e biológico
 de grande importância no processo de melhoramento genético de plantas,
 pois desde os primeiros estágios de seleção até a estimação do valor de cultivo e uso
 (VCU), para fins de recomendação de cultivares, a interação GxE dificulta a interpretação
@@ -25,7 +25,7 @@ genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o t
 
 # Objetivos
 
- - 1. Fornecer conceitos teóricos básicos para compreender o fenômeno da interação GxE;
+ - 1. Fornecer conceitos teóricos básicos para compreender o fenômeno da interação GxE a partir do trinagulo do melhoramento moderno;
  - 2. Mostrar a diferença dos modelos exploratórios empíricos e analíticos, no que tange a compreensão e predição da GxE em diversos estágios de programas de melhoramento de plantas;
  - 3. Disponibilizar códigos em programação open-source visando a democratização do uso de modelos envolvendo dados genômicos e ambientais
 
