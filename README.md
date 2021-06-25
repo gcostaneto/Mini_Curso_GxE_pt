@@ -53,6 +53,21 @@ Os códigos da aula prática podem ser encontrados [aqui, após as 22h do dia 26
 - Envirotyping (Tipagem de ambientes) usando o pacote R EnvRtype
 - Predições usando dados genomicos e ambientais
 
+**Pacotes base**
+
+```call.packages <- function(pkg){
+  
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  
+  if (length(new.pkg)) for(i in 1:length(new.pkg)) install.packages(new.pkg[i], dependencies = TRUE)
+    sapply(pkg, require, character.only = TRUE)
+}
+
+pacotes_necessarios <- c('ggplot2','foreach','doParallel','gge','GGEBiplots',
+                         'superheat',"BGLR")
+
+call.packages(pkg = pacotes_necessarios) # instala automatico
+```
 
 **Principais pacotes utilizados**
 
