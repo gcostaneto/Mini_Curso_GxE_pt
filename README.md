@@ -1,6 +1,6 @@
 # Modelagem da Interação Genótipo x Ambiente
 
-**Curta Duração, Básico, 4h**
+**Curta Duração, Conceitos Básicos + tools em R, 4h**
 
 **Idioma: Português**
 
@@ -29,20 +29,18 @@ genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o t
  - 2. Mostrar a diferença dos modelos exploratórios empíricos e analíticos, no que tange a compreensão e predição da GxE em diversos estágios de programas de melhoramento de plantas;
  - 3. Disponibilizar códigos em programação open-source visando a democratização do uso de modelos envolvendo dados genômicos e ambientais
 
-# Parte Teórica
+# Parte Teórica (1:30h)
 - Questões-Alvo (Teoricas)
 - Causas da Variação Fenotípica
 - Decomposição da Variação Fenotípica
-- Histórico da G×E ao longo dos últimos  60 anos
 - Ambiente e sua Tipologia
 - Norma de Reação e Plasticidade Fenotípica
 - Adaptabilidade e Estabilidade
 - Predição de Fenótipos sob múltiplas condições ambientais
-- Covariâncias Genomicas e Enviromicas
 
 A apresentação completa está disponível [aqui]()
 
-# Parte Prática (no R)
+# Parte Prática (no R, 2h)
 
 **Principais pacotes utilizados**
 
