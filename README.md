@@ -55,6 +55,8 @@ Os códigos da aula prática podem ser encontrados [aqui, após as 22h do dia 25
 
 **Pacotes base**
 
+- Copie e cole no R o código abaixo:
+
 ```
 # funcao para instalar automatico #
 call.packages <- function(pkg){
@@ -66,7 +68,7 @@ call.packages <- function(pkg){
 }
 
 # vetor de pacotes (no CRAN)
-pacotes_necessarios <- c('ggplot2','tidyverse','plyr','reshape2,'raster','foreach','doParallel','gge','GGEBiplots','superheat','BGLR','plsdepot')
+pacotes_necessarios <- c('ggplot2','tidyverse','plyr','reshape2,'raster','FactoMineR','foreach','doParallel','gge','GGEBiplots','superheat','BGLR','plsdepot')
 
 # instalação automático (e chamada via require)
 call.packages(pkg = pacotes_necessarios) 
