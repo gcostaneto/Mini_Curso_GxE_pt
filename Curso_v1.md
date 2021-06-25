@@ -1,14 +1,4 @@
----
-title: "Modelagem da Interação GxE"
-subtitle: "Teoria e prática no R usando dados fenotípicos, genômicos e ambientais"
-author: "Germano Costa Neto"
-date: "June 26, 2020"
-output:
-  prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
-    keep_md: true
----
+
 
 
 
