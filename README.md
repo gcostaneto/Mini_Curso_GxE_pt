@@ -21,7 +21,7 @@ de grande importância no processo de melhoramento genético de plantas,
 pois desde os primeiros estágios de seleção até a estimação do valor de cultivo e uso
 (VCU), para fins de recomendação de cultivares, a interação GxE dificulta a interpretação
 do fenótipo observado e subsequentes inferências sobre o valor
-genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o triangulo básico do melhoramento baseado em predição (genômica, fenômica, envirômica, Crossa et al., 2021), novos modos de modelar e compreender a GxE também sugiram. Com isso, as plataformas de predição (sobretudo predição genômica) tem cada vez mais se adaptado para acomodar dados de tipagem ambiental em larga escala (enviromica), tanto para explorar biologicmaente a interçaão GE como para fins de predição de diversos cenários multi-ambientais. 
+genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o triangulo básico do melhoramento baseado em predição (genômica, fenômica, envirômica, Crossa et al., 2021), novos modos de modelar e compreender a GxE também sugiram. Com isso, as plataformas de predição (sobretudo predição genômica) tem cada vez mais se adaptado para acomodar dados de tipagem ambiental em larga escala (enviromica). Isto tem se dado tanto para explorar biologicaente a interção GxE (e.g., regressão fatorial) como para fins de predição de diversos cenários multi-ambientais. 
 
 # Objetivos
 
