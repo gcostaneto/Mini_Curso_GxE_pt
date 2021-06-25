@@ -44,6 +44,16 @@ A apresentação completa está disponível [aqui](https://github.com/gcostaneto
 
 Os códigos da aula prática podem ser encontrados [aqui]()
 
+- Questões-Alvo (Práticas)
+- Dados Multi-Ambientais
+- Norma de Reação via Regressão Linear
+- GGE biplot usando Site-Regression Model
+- Modelos Marca x Ambiente
+- Métodos de Kernel para predição de GxE
+- Envirotyping (Tipagem de ambientes) usando o pacote R EnvRtype
+- Predições usando dados genomicos e ambientais
+
+
 **Principais pacotes utilizados**
 
 - **EnvRtype**: Envirotyping Tools in R ([Download](https://github.com/allogamous/EnvRtype), [Publicação](https://github.com/gcostaneto/Mini_Curso_GxE_pt/blob/main/literatura/EnvRtype.pdf))
