@@ -42,7 +42,7 @@ A apresentação completa está disponível [aqui](https://raw.githubusercontent
 
 # Parte Prática (no R, 2h)
 
-Os códigos da aula prática podem ser encontrados [aqui]()
+Os códigos da aula prática podem ser encontrados [aqui, após as 22h do dia 26/06]()
 
 - Questões-Alvo (Práticas)
 - Dados Multi-Ambientais
