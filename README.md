@@ -30,13 +30,15 @@ genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o t
  - 3. Disponibilizar códigos em programação open-source visando a democratização do uso de modelos envolvendo dados genômicos e ambientais
 
 # Parte Teórica (1:30h)
-- Questões-Alvo (Teoricas)
-- Causas da Variação Fenotípica
-- Decomposição da Variação Fenotípica
-- Ambiente e sua Tipologia
-- Norma de Reação e Plasticidade Fenotípica
-- Adaptabilidade e Estabilidade
-- Predição de Fenótipos sob múltiplas condições ambientais
+   * Why R?
+   * 1. Dados Multi-Ambientais
+   * 2. Norma de reação via índice empírico e FW
+   * 3. GGE biplot](#p3)
+   * 4. Regressão Fatorial com dados ambientais
+   * 5. Regressões Genômicas](#p5)
+   * Hands-on 1: Envirotyping usando R EnvRtype
+   * Hands-on 2: Predição Genômica com Envirômica
+   * Questões Orientadas
 
 A apresentação completa está disponível [aqui](https://raw.githubusercontent.com/gcostaneto/Mini_Curso_GxE_pt/main/Germano_Costa_Neto_Modeling%20GxE%20using%20phenotypic%2C%20genomic%20and%20enviromic.pdf)
 
