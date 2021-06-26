@@ -35,7 +35,7 @@ genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o t
    * Norma de reação via índice empírico e FW
    * GGE biplot
    * Regressão Fatorial com dados ambientais
-   * Regressões Genômicas]
+   * Regressões Genômicas
    * Hands-on 1: Envirotyping usando R EnvRtype
    * Hands-on 2: Predição Genômica com Envirômica
    * Questões Orientadas
