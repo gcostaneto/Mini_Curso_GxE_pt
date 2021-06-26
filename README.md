@@ -31,11 +31,11 @@ genético (Duarte and Vencovsky, 1999). Com o advento das ômicas, sobretudo o t
 
 # Parte Teórica (1:30h)
    * Why R?
-   * 1. Dados Multi-Ambientais
-   * 2. Norma de reação via índice empírico e FW
-   * 3. GGE biplot](#p3)
-   * 4. Regressão Fatorial com dados ambientais
-   * 5. Regressões Genômicas](#p5)
+   * Dados Multi-Ambientais
+   * Norma de reação via índice empírico e FW
+   * GGE biplot
+   * Regressão Fatorial com dados ambientais
+   * Regressões Genômicas]
    * Hands-on 1: Envirotyping usando R EnvRtype
    * Hands-on 2: Predição Genômica com Envirômica
    * Questões Orientadas
